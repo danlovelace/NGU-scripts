@@ -1487,7 +1487,6 @@ class Misc:
         Misc.set_input(coords.INPUT_MAX)
         if magic:
             Inputs.click(*coords.TM_MULT_MINUS)
-            return
         if energy:
             Inputs.click(*coords.TM_SPEED_MINUS)
     
