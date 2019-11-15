@@ -17,9 +17,9 @@ while choice not in answers:
     choice = input("Use butter for major quests? y/n: ").lower()
 
 while True:  # main loop
-    titans = Adventure.check_titan_status()
-    if titans:
-        Adventure.kill_titan(titans[0])
+    # titans = Adventure.check_titan_status()
+    # if titans:
+    #     Adventure.kill_titan(titans[0])
     text = Questing.get_quest_text()
     majors = Questing.get_available_majors()
     if majors == 0 and (coords.QUESTING_MINOR_QUEST in text.lower() or coords.QUESTING_NO_QUEST_ACTIVE in text.lower()):
