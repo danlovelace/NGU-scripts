@@ -1,10 +1,10 @@
 # user defined settings
 
 # SLEEPS
-FAST_SLEEP = 0.25
-SHORT_SLEEP = 0.5
-MEDIUM_SLEEP = 1
-LONG_SLEEP = 1.5
+FAST_SLEEP = 0.1
+SHORT_SLEEP = 0.2
+MEDIUM_SLEEP = 0.4
+LONG_SLEEP = 0.5
 
 # How long to farm blood for spell casting (in seconds)
 SPELL = 300
